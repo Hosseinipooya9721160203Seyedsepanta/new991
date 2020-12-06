@@ -1,0 +1,147 @@
+.mymain{
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "left inside right" ;
+    justify-content: space-around;
+}
+
+.inside{
+    grid-area: inside;
+    display: grid;
+    grid-template-columns: 80px  80px  80px  80px  80px  80px  80px  80px ;
+    grid-template-rows: 80px  80px  80px  80px  80px  80px  80px  80px ;
+    
+    grid-gap: 2px;
+    background-color: #fff;
+    color: #020202;
+    
+    
+}
+
+.mytitle{
+    cursor: pointer;
+}
+.right{
+    
+    grid-area: right;
+    display: grid;
+    grid-template-columns: 80px 80px;grid-gap: 2px;
+    /* gap: 5px 5px; */
+    grid-template-rows: 80px  80px 80px 80px 80px 80px 80px 80px 80px;
+    /* grid-template-areas: "shape shape ...." ; */
+    /* grid-gap: 5px; */
+
+}
+
+.left{
+    grid-area: left;
+    display: grid;
+    grid-template-columns: 80px 80px;grid-gap: 2px;
+    /* gap: 5px 5px; */
+    grid-template-rows: 80px  80px 80px 80px 80px 80px 80px 80px 80px;
+    /* grid-template-areas: "shape shape ...." ; */
+    /* grid-gap: 5px; */
+
+}
+
+.shape{
+    
+    margin-left: 5px;
+    width:  75px;
+    height: 75px;;
+    /* color: #FFF; */
+    border-radius: 5px;
+    /* padding: 20px */
+}
+
+.box{
+    background-color: #020202;
+    width:  75px;
+    height: 75px;
+    /* color: #FFF; */
+    border-radius: 5px;
+    /* padding: 23px; */
+    /* font-size: 150%; */
+}
+
+.mywhite{
+    background-color: #dcdcdc;
+}
+
+.inner{
+    width: 75px;
+    height: 75px;;
+    border-radius: 5px;
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48em;
+    width: 90%;
+  }
+
+
+
+
+
+
+
+.my-box-1{
+    width: 25%;
+}
+
+.my-box-2{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.my-box-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.my-circle-right{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+
+.my-circle-left{
+    width: 90px;
+    height: 50px;
+    margin: 3px;
+    background-color: #124561;
+    text-align: center;
+}
+.main-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.my-circle-center{
+    width: 100px;
+    height: 50px;
+    margin: 3px;
+    
+}
+.logo{
+    width: 130px;
+    height: 50px;
+}
+ p{
+     font-weight: 700;
+     font-size: 20px;
+ }
